@@ -1,6 +1,6 @@
 # AssetAutocollectorVC
-[GTA:SA version](https://github.com/SandeMC/AssetAutocollectorSA).
-![image](https://github.com/SandeMC/AssetAutocollectorSA/assets/70141395/30e70080-a344-4e1e-91dc-0516c89e0925)
+[GTA:SA version](https://github.com/SandeMC/AssetAutocollectorSA)
+![image](https://github.com/user-attachments/assets/da0cd895-cb3f-4e69-a352-e9d18adb6883)
 
 Automatically collects your revenue from every owned asset every time the clock resets after 12:00 (saving takes 6 hours, dying/getting arrested takes 12). Works even in interiors, but you need to touch grass at least once per session for it to work. It also disables the ability to grab money yourself - though the pickup itself will be there. 
 
