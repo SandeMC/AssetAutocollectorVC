@@ -45,12 +45,7 @@ public:
                 if (totalMoney > 0) {
                     CWorld::Players[0].m_nMoney += totalMoney;
                     static char text[256];
-                    if (numAssets < 10) {
-                        sprintf(text, "You have earned $%d from %d/10 assets.", totalMoney, numAssets);
-                    }
-                    else {
-                        sprintf(text, "You have earned $%d from 10 assets.", totalMoney);
-                    }
+                    sprintf(text, "You have earned $%d from %d assets.", totalMoney, numAssets);
                     CHud::SetHelpMessage(text, true, false);
                 }
             }
